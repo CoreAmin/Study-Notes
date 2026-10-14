@@ -15,3 +15,16 @@
     "Tyler": "pizza",
     "Toby": "pasta"
 }
+print(students["Alex"])
+print(students["Thomas"])
+print(students["Tyler"])
+print(students["Toby"])
+
+- the point is here is when we are useing list we call them by index number but here in dict we can use the the write word that is assosiate to another word in the other list
+
+## can we use loops with the dict?
+- when you use a for loop in python to iterate over a dictionary it iterates all of the keys
+
+for student in students:
+
+
