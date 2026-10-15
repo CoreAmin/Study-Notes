@@ -26,5 +26,15 @@ print(students["Toby"])
 - when you use a for loop in python to iterate over a dictionary it iterates all of the keys
 
 for student in students:
+    print(students)
+
+- now fot printing students name and theire favorite food we need to use this code:
+for student in students:
+    print(student, students[student])
+
+points= so the students name is the key then this syntax: students[student] will give us the favorite foods of each of them in the dict
+
+- we can add sep to make the result better:
+ print(student, students[student], sep=", ")
 
 
