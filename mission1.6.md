@@ -38,3 +38,7 @@ points= so the students name is the key then this syntax: students[student] will
  print(student, students[student], sep=", ")
 
 
+- when you use a for loop with a dictionary you get to choose what the varible is called
+ here it is student because it make sense 
+ and here what the for loop does just like did with numbers before 0 and 1 and 2 
+ this is very similar it itrate with the names instead of numbers it gives you more option.
