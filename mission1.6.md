@@ -42,3 +42,18 @@ points= so the students name is the key then this syntax: students[student] will
  here it is student because it make sense 
  and here what the for loop does just like did with numbers before 0 and 1 and 2 
  this is very similar it itrate with the names instead of numbers it gives you more option.
+
+
+# what if we have more information about each students:
+- for example sauce name 
+- what if we have a list of dictionaries 
+ each of those students is itself a dictionary:
+
+students = [
+    {"name": "Alex", "favorite food": "pizza", "sauce": "tomato"}
+    {"name": "Thomas", "favorite food": "pizza", "sauce": None}
+    {"name": "Tyler", "favorite food": "pasta", "sauce": "alfredo"}
+    {"name": "Toby", "favorite food": "pizza", "sauce": "mayonnaise"}
+]
+
+- None keyword for the place there is nothing for there for example here.
