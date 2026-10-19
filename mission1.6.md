@@ -57,3 +57,18 @@ students = [
 ]
 
 - None keyword for the place there is nothing for there for example here.
+
+- ok write now if we want to use these with a loop:
+for students in students:
+    print(student["name"])
+
+- here we ask to print the value of the name keys all of them:["name"]
+-for student in students:
+    print(student["name"], student["favorite food"], sep=", ")
+
+here we add a comma to add to the print function arguments and seprated them with a comma and space.
+- for student in students:
+    print(student["name"], student["favorite food"], student["sauce"], sep=", ")
+
+and this is just like the others.
+
